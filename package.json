@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "api": "cross-env PORT=3000 SUPPRESS_NO_CONFIG_WARNING=1 nodemon node_modules/bak/bin/bak start api",
+    "api:start": "bak start api",
   },
   "repository": {
     "type": "git",
